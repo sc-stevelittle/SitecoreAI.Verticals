@@ -5,7 +5,9 @@ import { Product } from '@/types/products';
 import { useLocale } from '@/hooks/useLocaleOptions';
 
 interface ProductCardProps {
-  product: Product;
+  product: Partial<Product> & {
+    Rating: number;
+  };
   url: string;
   className?: string;
 }
@@ -26,7 +28,7 @@ export const ProductCard = ({ product, url, className }: ProductCardProps) => {
         className={`flex min-h-123 w-full flex-col overflow-hidden rounded-2xl hover:drop-shadow-sm ${className}`}
       >
         {/* Product Image */}
-        <div className="bg-background-card-image flex h-72 w-full items-center justify-center p-6">
+        <div className="bg-background-surface flex h-72 w-full items-center justify-center p-6">
           <ContentSdkImage
             field={product.Image1}
             className="max-h-full max-w-full object-contain"
@@ -40,12 +42,12 @@ export const ProductCard = ({ product, url, className }: ProductCardProps) => {
             <Text field={product.Category?.fields?.CategoryName} />
           </p>
 
-          <h6 className="!text-foreground mt-1 font-semibold">
+          <h6 className="!text-foreground mt-1 line-clamp-2 font-semibold">
             <Text field={product.Title} />
           </h6>
 
           <StarRating
-            rating={product.Rating.value || 0}
+            rating={product.Rating || 0}
             showOnlyFilled
             className="!text-accent mt-1 mb-5"
           />
