@@ -60,3 +60,6 @@ body .ck.ck-editor__editable_inline {
 .stop-transition * {
   transition: none !important;
 }
+.broken-frame--a6MQC {
+  visibility: hidden;
+}

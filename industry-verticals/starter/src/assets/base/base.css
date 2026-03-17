@@ -69,3 +69,6 @@
     @apply [&::-webkit-scrollbar-thumb]:bg-foreground-muted [&::-webkit-scrollbar-track]:bg-background-surface [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:rounded-full;
   }
 }
+.broken-frame--a6MQC {
+  visibility: hidden;
+}
