@@ -1,5 +1,5 @@
 import React, { JSX } from 'react';
-import { User, Heart, ShoppingCart, X } from 'lucide-react';
+import { User, Heart, ShoppingCart, X, Search } from 'lucide-react';
 import { ComponentProps } from '@/lib/component-props';
 import { isParamEnabled } from '@/helpers/isParamEnabled';
 import { useI18n } from 'next-localization';
@@ -46,6 +46,8 @@ export const Default = (props: NavigationIconsProps): JSX.Element => {
   const showWishlistIcon = !isParamEnabled(props.params.HideWishlistIcon);
   const showAccountIcon = !isParamEnabled(props.params.HideAccountIcon);
   const showCartIcon = !isParamEnabled(props.params.HideCartIcon);
+  const showSearchIcon = !isParamEnabled(props.params.HideSearchIcon);
+
 
   const { t } = useI18n();
 
@@ -73,6 +75,12 @@ export const Default = (props: NavigationIconsProps): JSX.Element => {
         {showCartIcon && (
           <IconDropdown icon={<ShoppingCart className="size-5" />} label="Cart">
             <MiniCart showWishlist={showWishlistIcon} checkoutPage={props.fields?.CheckoutPage} />
+          </IconDropdown>
+        )}
+
+        {showSearchIcon && (
+          <IconDropdown icon={<Search className="size-7" />} label="Search">
+            {/* <MiniCart showWishlist={showWishlistIcon} checkoutPage={props.fields?.CheckoutPage} /> */}
           </IconDropdown>
         )}
       </div>
