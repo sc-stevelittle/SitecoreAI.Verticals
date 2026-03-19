@@ -58,6 +58,7 @@
   > .component-content {
     @apply bg-black border-black;
   }
+}
 
 .container-gray-background {
   > .component-content {
