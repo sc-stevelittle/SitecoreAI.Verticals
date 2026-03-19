@@ -48,7 +48,6 @@ export const Default = (props: NavigationIconsProps): JSX.Element => {
   const showCartIcon = !isParamEnabled(props.params.HideCartIcon);
   const showSearchIcon = !isParamEnabled(props.params.HideSearchIcon);
 
-
   const { t } = useI18n();
 
   return (
