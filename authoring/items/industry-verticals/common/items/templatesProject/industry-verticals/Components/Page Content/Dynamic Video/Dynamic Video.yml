@@ -1,8 +1,8 @@
 ---
-ID: "1f092eb1-453f-4b08-bad2-73d9dc4a7147"
-Parent: "0fc5384b-74a4-4552-9995-24c91de4a5a4"
+ID: "cd67838a-2cca-48c1-be4a-e7836c3e2f93"
+Parent: "e8d3e041-a549-4388-a154-46c4672a3568"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Video/Rendering Parameters/Video Parameters"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Dynamic Video/Dynamic Video"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
@@ -10,15 +10,23 @@ SharedFields:
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
-    {4247AAD4-EBDE-4994-998F-E067A51B1FE4}
-    {5C74E985-E055-43FF-B28C-DB6C6A6450A2}
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
     {44A022DB-56D3-419A-B43B-E27E4D8E9C41}
-    {3DB3EB10-F8D0-4CC9-BE26-18CE7B139EC8}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{E1F30C1C-6485-4B1A-BA10-0155763EA0C7}"
+  Value: "{182CC2D9-0294-4612-B529-374CB3769C01}"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Dynamic Video
   Versions:
   - Version: 1
     Fields:
@@ -31,7 +39,7 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e1f2a3b4-c5d6-4789-e012-f3456789abcd"
+      Value: "b2c3d4e5-f6a7-4890-b123-456789abcdef"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

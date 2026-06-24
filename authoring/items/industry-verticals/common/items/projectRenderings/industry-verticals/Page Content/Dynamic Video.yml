@@ -2,17 +2,17 @@
 ID: "d848fed8-5f27-4794-aad9-f162b6e94d20"
 Parent: "c8dc4bb6-bf94-4157-8ee6-c19cbfcb8a8a"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: "/sitecore/layout/Renderings/Project/industry-verticals/Page Content/Video"
+Path: "/sitecore/layout/Renderings/Project/industry-verticals/Page Content/Dynamic Video"
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: Video
+  Value: DynamicVideo
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Office/32x32/movies.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Video/Video"
+  Value: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Dynamic Video/Dynamic Video"
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 0
@@ -21,13 +21,13 @@ SharedFields:
   Value: "{1F092EB1-453F-4B08-BAD2-73D9DC4A7147}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Video Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Video Folder']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Dynamic Video Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Dynamic Video Folder']"
 Languages:
 - Language: en
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Video
+    Value: Dynamic Video
   Versions:
   - Version: 1
     Fields:

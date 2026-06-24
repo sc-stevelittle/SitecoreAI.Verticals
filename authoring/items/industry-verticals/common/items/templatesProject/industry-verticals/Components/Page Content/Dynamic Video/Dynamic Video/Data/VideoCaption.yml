@@ -1,27 +1,21 @@
 ---
-ID: "29d22d8c-00f0-4269-a8aa-7cdf4d409e51"
+ID: "2d888773-c96e-495b-9618-73ee43234e9b"
 Parent: "b230fbd4-bce5-481e-9631-ed3d806be133"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Video/Video/Data/Video"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Dynamic Video/Dynamic Video/Data/VideoCaption"
 SharedFields:
-- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
-  Hint: Source
-  Value: "query:$siteMedia"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: File
+  Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
-- ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
-  Hint: Shared
-  Value: 1
+  Value: 300
 Languages:
 - Language: en
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
     Hint: Title
-    Value: Video
+    Value: Video Caption
   Versions:
   - Version: 1
     Fields:
@@ -34,7 +28,7 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e5f6a7b8-c9d0-4123-e456-789abcdef012"
+      Value: "a7b8c9d0-e1f2-4345-a678-9abcdef01234"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

@@ -10,14 +10,14 @@ import {
 import React from 'react';
 import { ComponentProps } from 'lib/component-props';
 
-interface VideoFields {
+interface DynamicVideoFields {
   Video: ImageField;
   PosterImage?: ImageField;
   VideoCaption?: Field<string>;
 }
 
-interface VideoProps extends ComponentProps {
-  fields: VideoFields;
+interface DynamicVideoProps extends ComponentProps {
+  fields: DynamicVideoFields;
 }
 
 const getVideoMimeType = (src?: string): string | undefined => {
@@ -45,27 +45,27 @@ const VideoWrapper: React.FC<{ className: string; id?: string; children: React.R
   </div>
 );
 
-const VideoDefault: React.FC<VideoProps> = ({ params }) => (
-  <VideoWrapper className={`component video ${params.styles}`}>
-    <span className="is-empty-hint">Video</span>
+const DynamicVideoDefault: React.FC<DynamicVideoProps> = ({ params }) => (
+  <VideoWrapper className={`component dynamic-video ${params.styles}`}>
+    <span className="is-empty-hint">Dynamic Video</span>
   </VideoWrapper>
 );
 
-export const Default: React.FC<VideoProps> = (props) => {
+export const Default: React.FC<DynamicVideoProps> = (props) => {
   const { page } = useSitecore();
   const { fields, params } = props;
   const { styles, RenderingIdentifier: id } = params;
   const isEditing = page.mode.isEditing;
 
   if (!fields) {
-    return <VideoDefault {...props} />;
+    return <DynamicVideoDefault {...props} />;
   }
 
   const videoSrc = fields.Video?.value?.src;
   const mimeType = getVideoMimeType(videoSrc);
 
   return (
-    <VideoWrapper className={`component video ${styles}`} id={id}>
+    <VideoWrapper className={`component dynamic-video ${styles}`} id={id}>
       <figure className="video-player">
         {videoSrc && !isEditing ? (
           <video

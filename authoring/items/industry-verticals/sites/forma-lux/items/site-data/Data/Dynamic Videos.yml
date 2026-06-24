@@ -1,12 +1,8 @@
 ---
-ID: "867bf3dc-2eb4-4ac9-b73c-a34d00186c1f"
-Parent: "eae27667-a14a-4d6b-97d5-00a484faa22d"
-Template: "49c111d0-6867-4798-a724-1f103166e6e9"
-Path: "/sitecore/content/industry-verticals/forma-lux/Presentation/Headless Variants/Video"
-SharedFields:
-- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
-  Hint: __Icon
-  Value: Office/32x32/movies.png
+ID: "cec58922-cd26-4ec9-8136-72345409c425"
+Parent: "dcc7de24-6385-4653-9875-0d5be089f705"
+Template: "64607945-55a6-4c8e-b7e4-31c32707aba9"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Dynamic Videos"
 Languages:
 - Language: en
   Versions:
@@ -25,7 +21,7 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d6e7f8a9-b0c1-4234-d567-89abcdef0123"
+      Value: "b4c5d6e7-f8a9-4012-b345-6789abcdef01"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

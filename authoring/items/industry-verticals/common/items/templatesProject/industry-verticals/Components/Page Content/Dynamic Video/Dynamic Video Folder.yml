@@ -1,10 +1,21 @@
 ---
-ID: "0fc5384b-74a4-4552-9995-24c91de4a5a4"
+ID: "64607945-55a6-4c8e-b7e4-31c32707aba9"
 Parent: "e8d3e041-a549-4388-a154-46c4672a3568"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Video/Rendering Parameters"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Dynamic Video/Dynamic Video Folder"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/movies.png
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{C91FBD1C-8A96-4AF5-930D-EAEE4709A0FA}"
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Dynamic Video Folder
   Versions:
   - Version: 1
     Fields:
@@ -17,7 +28,7 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d0e1f2a3-b4c5-4678-d901-ef0123456789"
+      Value: "b8c9d0e1-f2a3-4456-b789-abcdef012345"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

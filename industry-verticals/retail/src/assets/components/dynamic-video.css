@@ -1,4 +1,4 @@
-.component.video {
+.component.dynamic-video {
   .video-player {
     @apply mx-auto w-full max-w-5xl;
   }

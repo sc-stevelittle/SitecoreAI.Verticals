@@ -1,12 +1,8 @@
 ---
-ID: "b230fbd4-bce5-481e-9631-ed3d806be133"
-Parent: "cd67838a-2cca-48c1-be4a-e7836c3e2f93"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Video/Video/Data"
-SharedFields:
-- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
-  Hint: __Icon
-  Value: Office/32x32/window_dialog.png
+ID: "0fc5384b-74a4-4552-9995-24c91de4a5a4"
+Parent: "e8d3e041-a549-4388-a154-46c4672a3568"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Dynamic Video/Rendering Parameters"
 Languages:
 - Language: en
   Versions:
@@ -21,7 +17,7 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d4e5f6a7-b8c9-4012-d345-6789abcdef01"
+      Value: "d0e1f2a3-b4c5-4678-d901-ef0123456789"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

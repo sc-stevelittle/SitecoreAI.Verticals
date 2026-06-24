@@ -1,17 +1,17 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import { Default as Video } from '../components/video/Video';
+import { Default as DynamicVideo } from '../components/dynamic-video/DynamicVideo';
 import { ComponentProps } from 'react';
 import { CommonParams, CommonRendering } from './common/commonData';
 import { createImageField, createTextField } from './helpers/createFields';
 
-type StoryProps = ComponentProps<typeof Video> & {
+type StoryProps = ComponentProps<typeof DynamicVideo> & {
   caption?: string;
   hasVideo?: boolean;
 };
 
 const meta = {
-  title: 'Media/Video',
-  component: Video,
+  title: 'Media/Dynamic Video',
+  component: DynamicVideo,
   tags: ['autodocs'],
   parameters: {
     layout: 'centered',
@@ -37,7 +37,7 @@ const baseParams = {
 
 const baseRendering = {
   ...CommonRendering,
-  componentName: 'Video',
+  componentName: 'DynamicVideo',
   params: baseParams,
 };
 
@@ -48,7 +48,7 @@ export const Default: Story = {
   },
   render: ({ caption, hasVideo }) => {
     return (
-      <Video
+      <DynamicVideo
         params={baseParams}
         rendering={baseRendering}
         fields={{

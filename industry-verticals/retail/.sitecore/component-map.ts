@@ -4,7 +4,6 @@ import { BYOCWrapper, NextjsContentSdkComponent, FEaaSWrapper } from '@sitecore-
 import { Form } from '@sitecore-content-sdk/nextjs';
 
 // end of built-in components
-import * as Video from 'src/components/video/Video';
 import * as Title from 'src/components/title/Title';
 import * as ThemeEditor from 'src/components/theme-editor/ThemeEditor';
 import * as Subscribe from 'src/components/subscribe/Subscribe';
@@ -46,6 +45,7 @@ import * as HeroBanner from 'src/components/hero-banner/HeroBanner';
 import * as Header from 'src/components/header/Header';
 import * as Footer from 'src/components/footer/Footer';
 import * as Features from 'src/components/features/Features';
+import * as DynamicVideo from 'src/components/dynamic-video/DynamicVideo';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ContactForm from 'src/components/contact-form/ContactForm';
@@ -59,7 +59,6 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCWrapper],
   ['FEaaSWrapper', FEaaSWrapper],
   ['Form', Form],
-  ['Video', { ...Video, componentType: 'client' }],
   ['Title', { ...Title }],
   ['ThemeEditor', { ...ThemeEditor }],
   ['Subscribe', { ...Subscribe }],
@@ -101,6 +100,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Header', { ...Header }],
   ['Footer', { ...Footer }],
   ['Features', { ...Features }],
+  ['DynamicVideo', { ...DynamicVideo, componentType: 'client' }],
   ['ContentBlock', { ...ContentBlock }],
   ['Container', { ...Container }],
   ['ContactForm', { ...ContactForm, componentType: 'client' }],
