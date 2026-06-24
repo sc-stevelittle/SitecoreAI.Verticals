@@ -1,0 +1,21 @@
+.component.video {
+  .video-player {
+    @apply mx-auto w-full max-w-5xl;
+  }
+
+  .video-player__element {
+    @apply aspect-video h-auto w-full rounded-lg bg-black;
+  }
+
+  .video-player__poster {
+    @apply aspect-video w-full overflow-hidden rounded-lg bg-neutral-100;
+
+    img {
+      @apply h-full w-full object-cover;
+    }
+  }
+
+  .video-caption {
+    @apply mt-2 block text-sm text-neutral-600;
+  }
+}

@@ -1,0 +1,33 @@
+---
+ID: "c91fbd1c-8a96-4af5-930d-eaee4709a0fa"
+Parent: "64607945-55a6-4c8e-b7e4-31c32707aba9"
+Template: "64607945-55a6-4c8e-b7e4-31c32707aba9"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Page Content/Video/Video Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {CD67838A-2CCA-48C1-BE4A-E7836C3E2F93}
+    {64607945-55A6-4C8E-B7E4-31C32707ABA9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260624T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c9d0e1f2-a3b4-4567-c890-def012345678"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260624T120000Z

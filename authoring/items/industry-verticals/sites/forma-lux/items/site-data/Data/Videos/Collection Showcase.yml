@@ -1,0 +1,43 @@
+---
+ID: "9813399b-18fa-40d0-a5e2-0632ef2c19dc"
+Parent: "cec58922-cd26-4ec9-8136-72345409c425"
+Template: "cd67838a-2cca-48c1-be4a-e7836c3e2f93"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Videos/Collection Showcase"
+SharedFields:
+- ID: "29d22d8c-00f0-4269-a8aa-7cdf4d409e51"
+  Hint: Video
+  Value: |
+    <file mediaid="{92E6B3A9-D96B-4453-9F06-0D8C519DC4F9}" src="-/media/92E6B3A9D96B44539F060D8C519DC4F9.ashx" />
+- ID: "df7aab15-2514-48fa-8c09-b8632f7ae39c"
+  Hint: PosterImage
+  Value: |
+    <image mediaid="399a3165-d906-4033-8db7-bb1b280a14e8" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2d888773-c96e-495b-9618-73ee43234e9b"
+      Hint: VideoCaption
+      Value: Discover our latest furniture collection in motion
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260624T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c5d6e7f8-a9b0-4123-c456-789abcdef012"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260624T120000Z
