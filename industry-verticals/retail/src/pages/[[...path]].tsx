@@ -1,6 +1,5 @@
 import { useEffect, JSX } from 'react';
 import { GetStaticPaths, GetStaticProps } from 'next';
-import sites from '.sitecore/sites.json';
 import NotFound from 'src/NotFound';
 import Layout from 'src/Layout';
 import {
