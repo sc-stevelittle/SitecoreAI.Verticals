@@ -1,4 +1,4 @@
-import React, { JSX, useMemo } from 'react';
+import { JSX, useMemo } from 'react';
 import Head from 'next/head';
 import { Field } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';

@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { GridIcon, ListBulletIcon } from '@radix-ui/react-icons';
 import type { SearchResultsInitialState, SearchResultsStoreState } from '@sitecore-search/react';
 import { WidgetDataType, useSearchResults, widget } from '@sitecore-search/react';
-import React from 'react';
 import HomeHighlighted from './HomeHighlighted';
 import Spinner from './Spinner';
 import ArticleItemCard from './ArticleCard';

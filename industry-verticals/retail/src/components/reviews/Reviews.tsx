@@ -6,7 +6,6 @@ import {
   TextField,
   useSitecore,
 } from '@sitecore-content-sdk/nextjs';
-import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';

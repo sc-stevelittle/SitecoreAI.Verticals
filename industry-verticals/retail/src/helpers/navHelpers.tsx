@@ -1,5 +1,5 @@
 import { NavigationProps, NavItemFields } from '@/components/navigation/Navigation';
-import React, { JSX } from 'react';
+import { JSX } from 'react';
 import { LinkField, Text } from '@sitecore-content-sdk/nextjs';
 
 export const isNavLevel = (fields: NavItemFields, level: number): boolean => {

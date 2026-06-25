@@ -1,4 +1,4 @@
-import React, { JSX, HTMLAttributes } from 'react';
+import { JSX, HTMLAttributes } from 'react';
 import {
   NextImage as ContentSdkImage,
   ImageField,

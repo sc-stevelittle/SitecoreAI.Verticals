@@ -1,4 +1,3 @@
-import type React from 'react';
 import { Link, LinkFieldValue, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from '@/lib/component-props';
 import { ChevronRight, MoreHorizontal } from 'lucide-react';

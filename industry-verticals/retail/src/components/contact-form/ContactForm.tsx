@@ -1,6 +1,5 @@
 'use client';
 
-import React from 'react';
 import { useI18n } from 'next-localization';
 import type { JSX } from 'react';
 import type { ComponentProps } from '@/lib/component-props';

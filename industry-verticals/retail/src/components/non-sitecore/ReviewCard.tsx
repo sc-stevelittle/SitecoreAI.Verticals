@@ -5,7 +5,6 @@ import {
   TextField,
   NextImage as ContentSdkImage,
 } from '@sitecore-content-sdk/nextjs';
-import React from 'react';
 import StarRating from './StarRating';
 import { SitecoreItem } from '@/types/common';
 import { User } from 'lucide-react';

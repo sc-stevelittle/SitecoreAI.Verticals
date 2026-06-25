@@ -1,4 +1,4 @@
-import React, { JSX } from 'react';
+import { JSX } from 'react';
 import { ComponentProps } from '@/lib/component-props';
 import { Text, Field, LinkField, Link } from '@sitecore-content-sdk/nextjs';
 import { isParamEnabled } from '@/helpers/isParamEnabled';

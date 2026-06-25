@@ -1,4 +1,4 @@
-import React, { JSX } from 'react';
+import { JSX } from 'react';
 import { ComponentProps } from '@/lib/component-props';
 import { Text, Field, RichText, RichTextField } from '@sitecore-content-sdk/nextjs';
 import { useI18n } from 'next-localization';

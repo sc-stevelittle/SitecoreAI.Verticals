@@ -11,8 +11,6 @@ import {
   Text,
   TextField,
 } from '@sitecore-content-sdk/nextjs';
-import React from 'react';
-
 interface Fields {
   TitleOne: TextField;
   TitleTwo: TextField;
