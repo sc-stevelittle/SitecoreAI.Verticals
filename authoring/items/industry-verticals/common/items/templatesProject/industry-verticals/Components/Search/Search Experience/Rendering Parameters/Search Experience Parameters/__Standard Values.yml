@@ -1,0 +1,27 @@
+---
+ID: "434a93c4-68fc-4c00-8cff-4a25b265836e"
+Parent: "97371e93-b8ed-4f59-850c-552d1830407b"
+Template: "97371e93-b8ed-4f59-850c-552d1830407b"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Search/Search Experience/Rendering Parameters/Search Experience Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260625T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1000000-0000-4000-a000-000000000024"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260625T120000Z

@@ -1,0 +1,72 @@
+.component.search-experience {
+  @apply w-full;
+
+  .search-experience__heading {
+    @apply mb-6 text-2xl font-semibold;
+  }
+
+  .search-experience__form {
+    @apply mb-6 flex w-full max-w-2xl gap-2;
+  }
+
+  .search-experience__input {
+    @apply w-full rounded-md border border-neutral-300 px-4 py-2 outline-none focus:border-neutral-500;
+  }
+
+  .search-experience__submit {
+    @apply rounded-md bg-neutral-900 px-5 py-2 text-white transition-colors hover:bg-neutral-700;
+  }
+
+  .search-experience__hint,
+  .search-experience__status {
+    @apply py-4 text-sm text-neutral-600;
+  }
+
+  .search-experience__summary {
+    @apply mb-4 text-sm text-neutral-500;
+  }
+
+  .search-experience__results {
+    @apply grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3;
+  }
+
+  .search-experience__result {
+    @apply list-none;
+  }
+
+  .search-experience__card-link {
+    @apply block h-full no-underline;
+  }
+
+  .search-experience__card {
+    @apply flex h-full flex-col overflow-hidden rounded-lg border border-neutral-200 transition-shadow hover:shadow-md;
+  }
+
+  .search-experience__card-image {
+    @apply aspect-video w-full object-cover;
+  }
+
+  .search-experience__card-body {
+    @apply flex flex-1 flex-col gap-2 p-4;
+  }
+
+  .search-experience__card-title {
+    @apply text-lg font-medium;
+  }
+
+  .search-experience__card-description {
+    @apply line-clamp-3 text-sm text-neutral-600;
+  }
+
+  .search-experience__pagination {
+    @apply mt-8 flex items-center justify-center gap-4;
+  }
+
+  .search-experience__page-btn {
+    @apply rounded-md border border-neutral-300 px-4 py-2 transition-colors hover:bg-neutral-100 disabled:cursor-not-allowed disabled:opacity-40;
+  }
+
+  .search-experience__page-info {
+    @apply text-sm text-neutral-600;
+  }
+}

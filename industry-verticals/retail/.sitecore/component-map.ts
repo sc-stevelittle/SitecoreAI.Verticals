@@ -13,6 +13,7 @@ import * as SelectedProducts from 'src/components/selected-products/SelectedProd
 import * as SelectedArticles from 'src/components/selected-articles/SelectedArticles';
 import * as SectionWrapper from 'src/components/section-wrapper/SectionWrapper';
 import * as SearchResults from 'src/components/search-results/SearchResults';
+import * as SearchExperience from 'src/components/search-experience/SearchExperience';
 import * as RowSplitter from 'src/components/row-splitter/RowSplitter';
 import * as RichText from 'src/components/rich-text/RichText';
 import * as Reviews from 'src/components/reviews/Reviews';
@@ -68,6 +69,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['SelectedArticles', { ...SelectedArticles, componentType: 'client' }],
   ['SectionWrapper', { ...SectionWrapper }],
   ['SearchResults', { ...SearchResults }],
+  ['SearchExperience', { ...SearchExperience, componentType: 'client' }],
   ['RowSplitter', { ...RowSplitter }],
   ['RichText', { ...RichText }],
   ['Reviews', { ...Reviews }],

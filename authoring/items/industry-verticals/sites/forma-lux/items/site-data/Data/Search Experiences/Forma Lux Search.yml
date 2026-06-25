@@ -1,0 +1,53 @@
+---
+ID: "170f314d-0a1f-48e5-90ff-c9701e2531dd"
+Parent: "b3251142-c9d7-4c2e-ade5-37877395560a"
+Template: "af5754b6-a6bb-4691-bb56-78f2563f55a4"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Search Experiences/Forma Lux Search"
+SharedFields:
+- ID: "5c66c20c-b946-466d-aaae-18cb34fa6e9a"
+  Hint: SearchIndexId
+  Value: "1193018"
+- ID: "ac9d7702-f597-4adf-b866-abe3bcb7ccc9"
+  Hint: ResultsPerPage
+  Value: 12
+- ID: "c951158e-3122-417c-bf45-6f9ee255183c"
+  Hint: TitleField
+  Value: name
+- ID: "a867206d-9417-4307-8581-5d517fe713d9"
+  Hint: DescriptionField
+  Value: description
+- ID: "eb171eb4-4a18-4793-9624-98bda5f38d9c"
+  Hint: UrlField
+  Value: url
+- ID: "35a1ca8c-3b95-4234-b552-4674e5f59cb0"
+  Hint: ImageField
+  Value: image_url
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "70098b77-a922-4f34-8db9-297fa591433e"
+      Hint: Heading
+      Value: Search Forma Lux
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260625T120000Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1000000-0000-4000-a000-000000000032"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260625T120000Z
