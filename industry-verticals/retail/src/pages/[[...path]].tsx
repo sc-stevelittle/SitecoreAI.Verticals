@@ -8,7 +8,6 @@ import {
   ComponentPropsContext,
   SitecorePageProps,
   StaticPath,
-  SiteInfo,
 } from '@sitecore-content-sdk/nextjs';
 import { extractPath, handleEditorFastRefresh } from '@sitecore-content-sdk/nextjs/utils';
 import { isDesignLibraryPreviewData } from '@sitecore-content-sdk/nextjs/editing';
@@ -57,10 +56,10 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
 
   if (process.env.NODE_ENV !== 'development' && scConfig.generateStaticPaths) {
     try {
-      paths = await client.getPagePaths(
-        sites.map((site: SiteInfo) => site.name),
-        context?.locales || []
-      );
+      const configuredSiteName = process.env.NEXT_PUBLIC_DEFAULT_SITE_NAME?.trim();
+      const siteNamesForStaticPaths = configuredSiteName ? [configuredSiteName] : [];
+
+      paths = await client.getPagePaths(siteNamesForStaticPaths, context?.locales || []);
     } catch (error) {
       console.log('Error occurred while fetching static paths');
       console.log(error);
